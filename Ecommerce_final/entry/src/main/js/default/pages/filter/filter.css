@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 10px;
+    background-color: beige;
+    border: blue;
+}
+button{
+    font-weight: bold;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.gender{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid lightblue;
+}
+.gender div{
+    margin-top: 4px;
+}
+.category{
+    margin-bottom: 20px;
+}
+.category select{
+    margin-top: 6px;
+}
+.brand{
+    margin-bottom: 20px;
+}
+.brand select{
+    margin-top: 6px;
+}
+
+.sizes{
+    margin-top: 25px;
+}
+
+.price{
+    margin: 10px 0%;
+}
+.price div{
+    margin: 5px 0%;
+}
+.add-clear{
+    margin-top: 25px;
+}
